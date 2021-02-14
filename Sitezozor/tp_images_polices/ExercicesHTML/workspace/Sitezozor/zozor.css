@@ -1,0 +1,59 @@
+body{
+    background-color:blanchedalmond
+}
+#logo{
+    display: flex;
+}
+
+h1{
+
+    font-size:medium;
+}
+
+header{
+    display: flex;
+    align-items: flex-end;justify-content: space-between;
+}
+
+.img-width{
+    width: 100%;
+}
+
+#navigation li a {
+    
+}
+ 
+ul{
+    display: flex;
+    list-style: none; 
+    text-align-last: ;  
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+     
+}
+
+li{
+    text-align:left;
+}
+    
+section{
+    display: flex;
+    width:100%;
+    
+}
+
+article{
+    width:80%;
+    
+}
+aside{
+    width:20%;
+    background-color: grey;
+    text-align: center;
+
+}

@@ -1,0 +1,71 @@
+body{
+    background:url(tp_images_polices/images/fond_jaune.png);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}
+
+#bloc-page {
+    width: 900px;
+    margin: auto;
+}
+
+#logo{
+    display: flex;
+}
+
+h1{
+
+    font-size:medium;
+    font-family:serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header{
+    display: flex;
+    align-items: flex-end;justify-content: space-between;
+}
+
+.img-width{
+    width:100%;
+}
+
+#navigation li a {
+
+    margin-right:15px;
+    
+}
+ 
+ul{
+    display: flex;
+    list-style: none;  
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+     
+}
+
+li{
+    text-align:left;
+}
+    
+section{
+    display: flex;
+    width:100%;
+    
+}
+
+article{
+    width:80%;
+    
+}
+aside{
+    width:20%;
+    background-color: grey;
+    text-align: center;
+
+}
